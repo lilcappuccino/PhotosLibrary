@@ -10,6 +10,7 @@ import UIKit
 
 class PhotosCollectionViewController: UICollectionViewController {
     
+    private var timer : Timer?
     
     private lazy var actionBarButtonItem : UIBarButtonItem = {
        return UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(actionButtonTapped))
@@ -74,8 +75,13 @@ class PhotosCollectionViewController: UICollectionViewController {
 
 // MARK: - UISearchBarDelegate
 extension PhotosCollectionViewController : UISearchBarDelegate {
-    
+
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print(searchText)
+        timer?.invalidate()
+        
+        timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false, block: {_ in
+            print(searchText)
+        })
+    
     }
 }
