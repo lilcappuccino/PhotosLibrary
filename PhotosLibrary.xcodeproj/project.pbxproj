@@ -13,6 +13,8 @@
 		6F3424C4230EB73C00AC5A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3424C2230EB73C00AC5A26 /* Main.storyboard */; };
 		6F3424C6230EB73D00AC5A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3424C5230EB73D00AC5A26 /* Assets.xcassets */; };
 		6F3424C9230EB73D00AC5A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3424C7230EB73D00AC5A26 /* LaunchScreen.storyboard */; };
+		6F3424D2230EBD0700AC5A26 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3424D1230EBD0700AC5A26 /* MainTabBarController.swift */; };
+		6F3424D4230EBDD700AC5A26 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3424D3230EBDD700AC5A26 /* PhotosCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6F3424C5230EB73D00AC5A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F3424C8230EB73D00AC5A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F3424CA230EB73D00AC5A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3424D1230EBD0700AC5A26 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		6F3424D3230EBDD700AC5A26 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		6F3424BB230EB73B00AC5A26 /* PhotosLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				6F3424D0230EBC7900AC5A26 /* Controllers */,
 				6F3424BC230EB73B00AC5A26 /* AppDelegate.swift */,
 				6F3424BE230EB73B00AC5A26 /* SceneDelegate.swift */,
-				6F3424C0230EB73C00AC5A26 /* ViewController.swift */,
 				6F3424C2230EB73C00AC5A26 /* Main.storyboard */,
 				6F3424C5230EB73D00AC5A26 /* Assets.xcassets */,
 				6F3424C7230EB73D00AC5A26 /* LaunchScreen.storyboard */,
 				6F3424CA230EB73D00AC5A26 /* Info.plist */,
 			);
 			path = PhotosLibrary;
+			sourceTree = "<group>";
+		};
+		6F3424D0230EBC7900AC5A26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F3424C0230EB73C00AC5A26 /* ViewController.swift */,
+				6F3424D1230EBD0700AC5A26 /* MainTabBarController.swift */,
+				6F3424D3230EBDD700AC5A26 /* PhotosCollectionViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +154,9 @@
 			files = (
 				6F3424C1230EB73C00AC5A26 /* ViewController.swift in Sources */,
 				6F3424BD230EB73B00AC5A26 /* AppDelegate.swift in Sources */,
+				6F3424D2230EBD0700AC5A26 /* MainTabBarController.swift in Sources */,
 				6F3424BF230EB73B00AC5A26 /* SceneDelegate.swift in Sources */,
+				6F3424D4230EBDD700AC5A26 /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +239,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -276,6 +293,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
