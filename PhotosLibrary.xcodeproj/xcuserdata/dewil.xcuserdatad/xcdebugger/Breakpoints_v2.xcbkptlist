@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CF0EF16D-0898-4429-BEBB-5AA44B3F64D6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D256970-498C-4F13-943E-EF664BC558A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosLibrary/Controllers/PhotosCollectionController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "PhotosCollectionViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A859799E-C9EC-4508-BFBB-095ABF052163"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosLibrary/Controllers/PhotosCollectionController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "PhotosCollectionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A859799E-C9EC-4508-BFBB-095ABF052163 - 257e2262bb8f105b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosLibrary.PhotosCollectionController.__allocating_init(collectionViewLayout: __C.UICollectionViewLayout) -&gt; PhotosLibrary.PhotosCollectionController"
+                  moduleName = "PhotosLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewil/iOs%20engineering/PhotosLibrary/PhotosLibrary/Controllers/PhotosCollectionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "A859799E-C9EC-4508-BFBB-095ABF052163 - 70abf181eb25ce34"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosLibrary.PhotosCollectionController.init(collectionViewLayout: __C.UICollectionViewLayout) -&gt; PhotosLibrary.PhotosCollectionController"
+                  moduleName = "PhotosLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewil/iOs%20engineering/PhotosLibrary/PhotosLibrary/Controllers/PhotosCollectionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  uuid = "A859799E-C9EC-4508-BFBB-095ABF052163 - cb52cfcad3e64614"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosLibrary.PhotosCollectionController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; PhotosLibrary.PhotosCollectionController"
+                  moduleName = "PhotosLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewil/iOs%20engineering/PhotosLibrary/PhotosLibrary/Controllers/PhotosCollectionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "A859799E-C9EC-4508-BFBB-095ABF052163 - 64caa26bf03ec1ad"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosLibrary.PhotosCollectionController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; PhotosLibrary.PhotosCollectionController"
+                  moduleName = "PhotosLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewil/iOs%20engineering/PhotosLibrary/PhotosLibrary/Controllers/PhotosCollectionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "359">
+               </Location>
+               <Location
+                  uuid = "A859799E-C9EC-4508-BFBB-095ABF052163 - 468a12b8c7e6509f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosLibrary.PhotosCollectionController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PhotosLibrary.PhotosCollectionController&gt;"
+                  moduleName = "PhotosLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewil/iOs%20engineering/PhotosLibrary/PhotosLibrary/Controllers/PhotosCollectionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "A859799E-C9EC-4508-BFBB-095ABF052163 - 46e7b196b071ad68"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosLibrary.PhotosCollectionController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PhotosLibrary.PhotosCollectionController&gt;"
+                  moduleName = "PhotosLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewil/iOs%20engineering/PhotosLibrary/PhotosLibrary/Controllers/PhotosCollectionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "A859799E-C9EC-4508-BFBB-095ABF052163 - 904dbfc744bd7907"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotosLibrary.PhotosCollectionController.__deallocating_deinit"
+                  moduleName = "PhotosLibrary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dewil/iOs%20engineering/PhotosLibrary/PhotosLibrary/Controllers/PhotosCollectionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC29649F-FBAC-4AE9-8467-A3F301054827"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosLibrary/Controllers/PhotosCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "searchBar(_:textDidChange:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05D18258-3B3B-4988-87FD-8A08ED0381E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosLibrary/Controllers/PhotosCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "setupNavigationBar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
