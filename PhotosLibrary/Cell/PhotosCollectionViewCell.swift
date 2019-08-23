@@ -14,7 +14,7 @@ class PhotosCollectionViewCell : UICollectionViewCell {
     
     static let reuseId = "PhotosCollectionViewCell"
     
-    private var imageView : UIImageView = {
+    var imageView : UIImageView = {
        let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
